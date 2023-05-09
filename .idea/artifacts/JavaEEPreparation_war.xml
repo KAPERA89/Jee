@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="JavaEEPreparation:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>JavaEEPreparation</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="JavaEEPreparation-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="JavaEEPreparation:war exploded" />
+    </root>
+  </artifact>
+</component>
